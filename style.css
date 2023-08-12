@@ -1,0 +1,175 @@
+p, li {
+    color: #000;
+    font-family: Source Code Pro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+a {
+    color: #000;
+    text-align: center;
+    font-family: Source Code Pro;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+button {
+    border-radius: 20px;
+    background: #FFFA8C;
+    color: #000;
+    text-align: center;
+    font-family: Source Code Pro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    display: block;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #000;
+    text-shadow: 10px 10px 4px #FFF625;
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 13px;
+    text-align: center;
+}
+
+.big-button {
+    font-size: 36.362px;
+    padding: 10px 30px;
+    margin-top: 60px;
+}
+
+section {
+    box-sizing: border-box;
+}
+
+@media (min-width: 1000px) {
+    section {
+        height: 100vh;
+        margin: 0;
+    }
+
+    button {
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    section {
+        padding: 10px;
+    }
+
+    button {
+        width: 95%;
+        padding: 10px 0px;
+    }
+}
+
+
+    /* Перша секція */
+
+    @media (min-width: 1000px) {
+
+        .section1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: url(img/bg1.png) no-repeat;
+            background-size: 100% 100%;
+        }
+
+            .section1 > img {
+                height: 50vh;
+            }
+
+        h1 {
+            font-size: 50px;
+        }
+    }
+
+    @media (max-width: 1000px) {
+
+        .section1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: url(img/bg1-mobile.png) no-repeat;
+            background-size: 100% 110%;
+        }
+
+            .section1 > img {
+                width: 100%;
+            }
+
+        h1 {
+            font-size: 35px;
+        }
+    }
+
+    /* Друга секція */
+
+    @media (min-width: 1000px) {
+
+        .section2 {
+            background: url(img/bg2.png) no-repeat;
+            background-size: 100% 100%;
+            padding: 6% 8%;
+        }
+
+            .section2 > p {
+                width: 60%;
+                margin-bottom: 7%;
+            }
+    }
+
+    /* Третя секція */
+
+    @media (min-width: 1000px) {
+        
+        .section3 {
+            display: flex;
+            display: flex;
+            flex-direction: column;
+            grid-gap: 40px;
+            justify-content: center;
+            align-items: center;
+            background: url(img/bg3.png) no-repeat;
+            background-size: 100% 110%;
+        }
+
+            .section3 > p {
+                width: 70%;
+                text-align: center;
+            }
+
+            .section3 > ul {
+                width: 65%;
+            }
+
+    }
+
+/* Четверта секція */
+
+@media (min-width: 1000px) {
+
+    .section4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
